@@ -1,0 +1,16 @@
+PODS:
+  - SimpleSpeedometer (0.1.0)
+
+DEPENDENCIES:
+  - SimpleSpeedometer (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleSpeedometer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleSpeedometer: cfeb51c3e01c40a21e3320524821e962e209577f
+
+PODFILE CHECKSUM: 48d6eecb1e3aff16064f0b298fc94f7ae134d1b7
+
+COCOAPODS: 1.10.0

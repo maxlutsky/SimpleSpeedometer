@@ -1,0 +1,6 @@
+framework module SimpleSpeedometer {
+  umbrella header "SimpleSpeedometer-umbrella.h"
+
+  export *
+  module * { export * }
+}
