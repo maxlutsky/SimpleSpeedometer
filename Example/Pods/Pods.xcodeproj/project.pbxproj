@@ -11,9 +11,9 @@
 		40348D7DB734B6832F7385E10F65E5E5 /* SimpleSpeedometer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA10DD86631461663A61069D2F1EFD1 /* SimpleSpeedometer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A2FE863BFDA6CED865D8B1214A5418C /* Pods-SimpleSpeedometer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C065216600C5AAA2D1983047BA3D366 /* Pods-SimpleSpeedometer_Example-dummy.m */; };
 		4E85DAF30A26C4E96DD07E32F9A43745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		507E609C27931DE4003EAB3C /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E609B27931DE4003EAB3C /* SpeedometerView.swift */; };
 		619D5705771F577E92B3129B2B2049C1 /* Pods-SimpleSpeedometer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5872D31A0C06C006C4F7F4B8ACF1CC0 /* Pods-SimpleSpeedometer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C15ECC0DD8B6787F3F7F5BBD9AF0D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6FACD1E824F8678FA42F5CC14549D8B0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91566BA4F68AC8288FCC039DE50AA774 /* ReplaceMe.swift */; };
 		9E18873082046B548BE15587C709D39F /* SimpleSpeedometer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99545C0D610971D19144B59C64B168F9 /* SimpleSpeedometer-dummy.m */; };
 		D678FB4ADC0273BAAD7720079D102E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FD2BB3D333551FC63B58616D362E2E47 /* Pods-SimpleSpeedometer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C21AB9FC8BDAE19FDD9A08A1552C2FD3 /* Pods-SimpleSpeedometer_Tests-dummy.m */; };
@@ -46,6 +46,7 @@
 		4C065216600C5AAA2D1983047BA3D366 /* Pods-SimpleSpeedometer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleSpeedometer_Example-dummy.m"; sourceTree = "<group>"; };
 		4C50DDE97201BE867F1CB5CD777E80F2 /* SimpleSpeedometer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleSpeedometer-prefix.pch"; sourceTree = "<group>"; };
 		5042CDD93635A81895E89F6C7AD674AC /* Pods-SimpleSpeedometer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleSpeedometer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		507E609B27931DE4003EAB3C /* SpeedometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
 		53FA3CE16D8E98DD50744147AD589834 /* Pods_SimpleSpeedometer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleSpeedometer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B8F1358B29355C7F0E0E363C00E6B1 /* SimpleSpeedometer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleSpeedometer-Info.plist"; sourceTree = "<group>"; };
 		61D62990008E9BB6FE8862C11116DC79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7CF9DB684CFA5D0EAFF85B425946BA46 /* Pods-SimpleSpeedometer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSpeedometer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8ADAA6FBDC0FE4FD5B040BF7F7DC628E /* Pods-SimpleSpeedometer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleSpeedometer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		91566BA4F68AC8288FCC039DE50AA774 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleSpeedometer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		94523B50805B26F1BF29E93B06CBE2E6 /* Pods-SimpleSpeedometer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleSpeedometer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96D7DF3F77D079B77E3CAD53730296B4 /* Pods-SimpleSpeedometer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleSpeedometer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		99545C0D610971D19144B59C64B168F9 /* SimpleSpeedometer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleSpeedometer-dummy.m"; sourceTree = "<group>"; };
@@ -127,6 +127,14 @@
 				BA14435BF79C48E2FE712C72D5DBA304 /* SimpleSpeedometer.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		507E6088279319B9003EAB3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				507E609B27931DE4003EAB3C /* SpeedometerView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		573A5F8C3B1E18FB272C729139C3D4DC /* Development Pods */ = {
@@ -215,7 +223,7 @@
 		FB7755FC93242064CCBF8060CBB92BD6 /* SimpleSpeedometer */ = {
 			isa = PBXGroup;
 			children = (
-				91566BA4F68AC8288FCC039DE50AA774 /* ReplaceMe.swift */,
+				507E6088279319B9003EAB3C /* Classes */,
 				379AA53666674406E4312ACA20B03737 /* Pod */,
 				E62CB13D3E17A2760F4EFC76ACBD1340 /* Support Files */,
 			);
@@ -316,7 +324,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2968B19EF7BE7DB1C2675A859C991416 = {
+						DevelopmentTeam = YQJTUXZFSR;
+						LastSwiftMigration = 1240;
+						ProvisioningStyle = Automatic;
+					};
+					4F67C87B3D15900AAFF23C5DD703F088 = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,7 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FACD1E824F8678FA42F5CC14549D8B0 /* ReplaceMe.swift in Sources */,
+				507E609C27931DE4003EAB3C /* SpeedometerView.swift in Sources */,
 				9E18873082046B548BE15587C709D39F /* SimpleSpeedometer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,7 +505,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSpeedometer_Tests/Pods-SimpleSpeedometer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSpeedometer_Tests/Pods-SimpleSpeedometer_Tests.modulemap";
@@ -519,7 +537,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSpeedometer_Tests/Pods-SimpleSpeedometer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSpeedometer_Tests/Pods-SimpleSpeedometer_Tests.modulemap";
@@ -542,17 +560,22 @@
 			baseConfigurationReference = 03C1B218F4B5C741346A314E088F00F5 /* Pods-SimpleSpeedometer_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YQJTUXZFSR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSpeedometer_Example/Pods-SimpleSpeedometer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSpeedometer_Example/Pods-SimpleSpeedometer_Example.modulemap";
@@ -561,8 +584,12 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -619,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -634,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E72CA768319728D7D752922C35CDDF14 /* SimpleSpeedometer.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -645,7 +673,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer.modulemap";
 				PRODUCT_MODULE_NAME = SimpleSpeedometer;
@@ -653,6 +681,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,17 +694,22 @@
 			baseConfigurationReference = 7CF9DB684CFA5D0EAFF85B425946BA46 /* Pods-SimpleSpeedometer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YQJTUXZFSR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SimpleSpeedometer_Example/Pods-SimpleSpeedometer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SimpleSpeedometer_Example/Pods-SimpleSpeedometer_Example.modulemap";
@@ -684,8 +718,11 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -697,6 +734,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF9E4AC5B978E36F5A0945322930072D /* SimpleSpeedometer.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -708,7 +746,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SimpleSpeedometer/SimpleSpeedometer.modulemap";
 				PRODUCT_MODULE_NAME = SimpleSpeedometer;

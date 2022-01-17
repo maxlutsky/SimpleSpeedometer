@@ -7,18 +7,41 @@
 //
 
 import UIKit
+import SimpleSpeedometer
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewForSpeedometer: UIView!
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var label: UILabel!
+    
+    var speedometer: SpeedometerView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(labelTapped))
+        label.addGestureRecognizer(gestureRecognizer)
+        label.text = "Set Speedometer value to \(Int(slider.value)) percent"
+        
+        // Setup Speedometer
+        let speedometerElements = [
+            GaugeElemet(color: .blue,
+                        thikness: 20,
+                        percents: 35),
+            GaugeElemet(color: .red,
+                        thikness: 20,
+                        percents: 65)
+        ]
+        viewForSpeedometer.layoutIfNeeded()
+        speedometer = SpeedometerView(frame: viewForSpeedometer.bounds, gaugeElements: speedometerElements)
+        viewForSpeedometer.addSubview(speedometer ?? UIView())
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        label.text = "Set Speedometer value to \(Int(slider.value)) percent"
     }
-
+    @objc func labelTapped() {
+        speedometer?.setValue(percents: Int(slider.value))
+    }
 }
 
