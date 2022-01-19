@@ -35,7 +35,7 @@ public class SpeedometerView: UIView {
                 animation.toValue = getRadians(degrees: progress)
                 animation.duration = CFTimeInterval(abs(currentProgress - progress)/100)
                 animation.isRemovedOnCompletion = false
-                animation.fillMode = kCAFillModeForwards;
+                animation.fillMode = CAMediaTimingFillMode.forwards;
                 needle.add(animation, forKey: "transform.rotation.z")
                 currentProgress = progress
             }

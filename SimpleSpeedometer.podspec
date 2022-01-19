@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SimpleSpeedometer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleSpeedometer.'
+  s.summary          = 'Simple way to create a Speedometer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,13 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SimpleSpeedometer/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'SimpleSpeedometer' => ['SimpleSpeedometer/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
